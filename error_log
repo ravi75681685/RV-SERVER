@@ -1,0 +1,82 @@
+[04-Aug-2025 09:50:32 UTC] PHP Warning:  Undefined variable $storage_file in /home/badmodxx/public_html/Ram/update_system.php on line 17
+[04-Aug-2025 09:50:32 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/badmodxx/public_html/Ram/update_system.php:17
+Stack trace:
+#0 /home/badmodxx/public_html/Ram/update_system.php(17): file_get_contents()
+#1 {main}
+  thrown in /home/badmodxx/public_html/Ram/update_system.php on line 17
+[04-Aug-2025 09:50:33 UTC] PHP Warning:  Undefined variable $storage_file in /home/badmodxx/public_html/Ram/update_system.php on line 17
+[04-Aug-2025 09:50:33 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/badmodxx/public_html/Ram/update_system.php:17
+Stack trace:
+#0 /home/badmodxx/public_html/Ram/update_system.php(17): file_get_contents()
+#1 {main}
+  thrown in /home/badmodxx/public_html/Ram/update_system.php on line 17
+[04-Aug-2025 09:50:34 UTC] PHP Warning:  Undefined variable $storage_file in /home/badmodxx/public_html/Ram/update_system.php on line 17
+[04-Aug-2025 09:50:34 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/badmodxx/public_html/Ram/update_system.php:17
+Stack trace:
+#0 /home/badmodxx/public_html/Ram/update_system.php(17): file_get_contents()
+#1 {main}
+  thrown in /home/badmodxx/public_html/Ram/update_system.php on line 17
+[04-Aug-2025 09:50:35 UTC] PHP Warning:  Undefined variable $storage_file in /home/badmodxx/public_html/Ram/update_system.php on line 17
+[04-Aug-2025 09:50:35 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/badmodxx/public_html/Ram/update_system.php:17
+Stack trace:
+#0 /home/badmodxx/public_html/Ram/update_system.php(17): file_get_contents()
+#1 {main}
+  thrown in /home/badmodxx/public_html/Ram/update_system.php on line 17
+[04-Aug-2025 09:50:37 UTC] PHP Warning:  Undefined variable $storage_file in /home/badmodxx/public_html/Ram/update_system.php on line 17
+[04-Aug-2025 09:50:37 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/badmodxx/public_html/Ram/update_system.php:17
+Stack trace:
+#0 /home/badmodxx/public_html/Ram/update_system.php(17): file_get_contents()
+#1 {main}
+  thrown in /home/badmodxx/public_html/Ram/update_system.php on line 17
+[04-Aug-2025 09:50:38 UTC] PHP Warning:  Undefined variable $storage_file in /home/badmodxx/public_html/Ram/update_system.php on line 17
+[04-Aug-2025 09:50:38 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/badmodxx/public_html/Ram/update_system.php:17
+Stack trace:
+#0 /home/badmodxx/public_html/Ram/update_system.php(17): file_get_contents()
+#1 {main}
+  thrown in /home/badmodxx/public_html/Ram/update_system.php on line 17
+[04-Aug-2025 10:00:25 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/badmodxx/public_html/Ram/update_system.php on line 198
+[04-Aug-2025 10:00:27 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/badmodxx/public_html/Ram/update_system.php on line 198
+[04-Aug-2025 10:00:28 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /home/badmodxx/public_html/Ram/update_system.php on line 198
+[04-Aug-2025 10:39:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/badmodxx/public_html/Ram/Dashboard.php on line 575
+[04-Aug-2025 10:39:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/badmodxx/public_html/Ram/Dashboard.php on line 575
+[04-Aug-2025 10:39:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/badmodxx/public_html/Ram/Dashboard.php on line 575
+[04-Aug-2025 10:39:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/badmodxx/public_html/Ram/Dashboard.php on line 575
+[04-Aug-2025 10:39:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/badmodxx/public_html/Ram/Dashboard.php on line 575
+[04-Aug-2025 10:39:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/badmodxx/public_html/Ram/Dashboard.php on line 575
+[04-Aug-2025 10:39:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/badmodxx/public_html/Ram/Dashboard.php on line 575
+[04-Aug-2025 10:39:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/badmodxx/public_html/Ram/Dashboard.php on line 575
+[04-Aug-2025 12:08:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/badmodxx/public_html/Ram/Dashboard.php on line 575
+[04-Aug-2025 15:51:16 UTC] PHP Warning:  Undefined variable $required in /home/badmodxx/public_html/Ram/Dashboard.php on line 86
+[04-Aug-2025 15:51:16 UTC] PHP Fatal error:  Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /home/badmodxx/public_html/Ram/Dashboard.php:86
+Stack trace:
+#0 /home/badmodxx/public_html/Ram/Dashboard.php(86): array_diff()
+#1 {main}
+  thrown in /home/badmodxx/public_html/Ram/Dashboard.php on line 86
+[04-Aug-2025 15:51:53 UTC] PHP Warning:  Undefined variable $required in /home/badmodxx/public_html/Ram/Dashboard.php on line 86
+[04-Aug-2025 15:51:53 UTC] PHP Fatal error:  Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /home/badmodxx/public_html/Ram/Dashboard.php:86
+Stack trace:
+#0 /home/badmodxx/public_html/Ram/Dashboard.php(86): array_diff()
+#1 {main}
+  thrown in /home/badmodxx/public_html/Ram/Dashboard.php on line 86
+[04-Aug-2025 15:53:00 UTC] PHP Warning:  Undefined variable $required in /home/badmodxx/public_html/Ram/Dashboard.php on line 86
+[04-Aug-2025 15:53:00 UTC] PHP Fatal error:  Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /home/badmodxx/public_html/Ram/Dashboard.php:86
+Stack trace:
+#0 /home/badmodxx/public_html/Ram/Dashboard.php(86): array_diff()
+#1 {main}
+  thrown in /home/badmodxx/public_html/Ram/Dashboard.php on line 86
+[04-Aug-2025 15:53:05 UTC] PHP Warning:  Undefined variable $required in /home/badmodxx/public_html/Ram/Dashboard.php on line 86
+[04-Aug-2025 15:53:05 UTC] PHP Fatal error:  Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /home/badmodxx/public_html/Ram/Dashboard.php:86
+Stack trace:
+#0 /home/badmodxx/public_html/Ram/Dashboard.php(86): array_diff()
+#1 {main}
+  thrown in /home/badmodxx/public_html/Ram/Dashboard.php on line 86
+[04-Aug-2025 15:53:10 UTC] PHP Warning:  Undefined variable $required in /home/badmodxx/public_html/Ram/Dashboard.php on line 86
+[04-Aug-2025 15:53:10 UTC] PHP Fatal error:  Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in /home/badmodxx/public_html/Ram/Dashboard.php:86
+Stack trace:
+#0 /home/badmodxx/public_html/Ram/Dashboard.php(86): array_diff()
+#1 {main}
+  thrown in /home/badmodxx/public_html/Ram/Dashboard.php on line 86
+[05-Aug-2025 03:05:37 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/badmodxx/public_html/Ram/Dashboard.php on line 5
+[05-Aug-2025 03:05:38 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/badmodxx/public_html/Ram/Dashboard.php on line 5
+[05-Aug-2025 03:05:39 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/badmodxx/public_html/Ram/Dashboard.php on line 5
+[05-Aug-2025 03:05:40 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home/badmodxx/public_html/Ram/Dashboard.php on line 5

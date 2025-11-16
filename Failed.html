@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Verification Required</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Orbitron:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      min-height: 100vh;
+      font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #0e1a26, #0c1520);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle at 20% 20%, rgba(40, 80, 120, 0.15) 0%, transparent 60%),
+                  radial-gradient(circle at 80% 80%, rgba(180, 80, 160, 0.1) 0%, transparent 60%);
+      z-index: -1;
+    }
+    
+    .main-card {
+      background: linear-gradient(145deg, #1a2b3d, #152232);
+      border: 1px solid rgba(64, 140, 200, 0.15);
+      box-shadow: 0 10px 40px rgba(5, 15, 30, 0.7),
+                  0 0 0 1px rgba(80, 160, 240, 0.1);
+      backdrop-filter: blur(8px);
+    }
+    
+    .status-tag {
+      background: linear-gradient(90deg, #ff3860, #ff4d7c);
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 15px rgba(255, 77, 124, 0.4);
+    }
+    
+    .status-box {
+      background: rgba(255, 77, 124, 0.1);
+      border: 1px solid rgba(255, 77, 124, 0.3);
+      backdrop-filter: blur(5px);
+    }
+    
+    .icon-container {
+      background: linear-gradient(135deg, #2a3a4d, #1e2a3a);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3),
+                  inset 0 2px 4px rgba(255, 255, 255, 0.05);
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.8s ease-out forwards;
+    }
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .slide-in {
+      animation: slideIn 0.6s ease-out 0.2s forwards;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    
+    @keyframes slideIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .floating {
+      animation: floating 3s ease-in-out infinite;
+    }
+    
+    @keyframes floating {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    
+    .glow {
+      filter: drop-shadow(0 0 6px rgba(80, 200, 255, 0.7));
+    }
+    
+    .blink {
+      animation: blink 1.5s infinite;
+    }
+    
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+  </style>
+</head>
+<body>
+  <main class="main-card w-full max-w-md mx-4 p-6 rounded-2xl fade-in">
+    <div class="flex flex-col items-center space-y-6">
+      <!-- Icon block with animation -->
+      <div class="icon-container w-20 h-20 flex items-center justify-center rounded-2xl floating">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-12 h-12 glow" fill="#ff4d7c">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"/>
+        </svg>
+      </div>
+
+      <!-- Heading with animation -->
+      <h1 class="text-center text-3xl font-extrabold mt-2 tracking-wide slide-in" style="
+          background: linear-gradient(90deg, #ff3860, #ff7aa8);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        ">
+        Verification Failed
+      </h1>
+      
+      <!-- Verification failed tag with animation -->
+      <span class="status-tag inline-block px-6 py-2 rounded-full text-white font-bold text-base leading-none tracking-wide slide-in">
+        <i class="fas fa-exclamation-circle mr-2"></i>Access Denied
+      </span>
+
+      <!-- Status message with animation -->
+      <div class="status-box w-full mt-3 rounded-xl px-4 py-4 text-center slide-in">
+        <div class="font-bold text-red-300 mb-2 text-lg">
+          <i class="fas fa-shield-alt mr-2"></i>Verification Failed
+        </div>
+        <div class="text-red-100 text-sm leading-relaxed">
+          You have not verified properly
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const elements = document.querySelectorAll('.slide-in');
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.animationPlayState = 'running';
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      elements.forEach(el => {
+        el.style.opacity = '0';
+        observer.observe(el);
+      });
+      
+      // Floating animation for the main icon
+      const icon = document.querySelector('.floating');
+      if (icon) {
+        icon.style.animationDelay = '0.5s';
+      }
+    });
+  </script>
+</body>
+</html>

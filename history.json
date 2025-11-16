@@ -1,0 +1,142 @@
+{
+    "NetShare": {
+        "2025-08-03": {
+            "day": "Sunday",
+            "verifications": [
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 03:08:58"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 09:16:07"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 09:32:27"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 09:42:50"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 18:31:33"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 18:59:14"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 19:30:57"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 20:03:05"
+                }
+            ],
+            "deletions": [
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 03:15:18"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 09:32:05"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 09:42:30"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 18:33:43"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 19:01:16"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 19:32:57"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 21:27:49"
+                }
+            ]
+        },
+        "2025-08-04": {
+            "day": "Monday",
+            "verifications": [
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-04 17:33:48"
+                }
+            ],
+            "deletions": [
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-04 17:39:11"
+                }
+            ]
+        }
+    },
+    "My Mental": {
+        "2025-08-07": {
+            "day": "Thursday",
+            "verifications": [
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-07 14:06:13"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-07 14:15:00"
+                }
+            ],
+            "deletions": [
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-07 14:04:09"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-07 14:09:38"
+                },
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-07 14:17:18"
+                }
+            ]
+        },
+        "2025-08-12": {
+            "day": "Tuesday",
+            "verifications": [
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-12 03:04:31"
+                }
+            ],
+            "deletions": []
+        }
+    },
+    "CHIPKU 29": {
+        "2025-08-03": {
+            "day": "Sunday",
+            "verifications": [
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 19:59:07"
+                }
+            ],
+            "deletions": [
+                {
+                    "device_id": "290cf774a13e33fa6194d2637ce45c42ee9ad60ebc6e41b38bc197aea2814eb6",
+                    "timestamp": "2025-08-03 21:27:55"
+                }
+            ]
+        }
+    }
+}
